@@ -1,0 +1,197 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inherited_assumption",
+    "episode_count_reason": "沿前序五集节奏继续一次完整的L3创作单元，五项各自兑现物证、被拖走、真实救回、妆镜伏笔、复归与第三夜接轨。",
+    "merge_review": "上楼勘路与声线伏笔合并A01；抓捕与呼救合并A02；阿禾实体救人单列A03以免一秒救完；真实到活动室与拾得物件为A04；情感冲击复归及B1接口收为A05，不按每道门单独水集。"
+  },
+  "audience_promise": "在周启虽强却不全知、林渊无法稳定召唤阿禾的情况下，小满真正遭怪物拖入多房病区，阿禾第二次被极端保护冲动触发并实走救人；旧假发和手镜留下更深的情感谜团，四人仍没有破解医院机制。",
+  "main_engine": "实物病区连通路径与声音模仿使弱者遭遇危险；阿禾力量强但不共享林渊经历、无法忽略距离，救人须靠同伴真实报告和实体动作。",
+  "protagonist_strategy": "先真实摸路与查补给；小满辨识异常仍受物理突袭；阿禾在陈七与周启开路、拦截之下以目视弱点实地分离掳人者与小满，再到2F活动室处理伤口与记忆。",
+  "ending_payoff": "小满被真救回，阿禾亲手将旧假发与裂角手镜装入随身包，旧情绪震荡使林渊再次掌控同体；没有阿月出场、没有3F017登记、没有提前正面识别医护。",
+  "endpoint_kind": "rescue_and_emotional_mystery_reversal",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "internal_id": "A01",
+      "title": "它学过我们的声音",
+      "attempt": "四人带着H05未开启的第二瓶500mL水上楼找药和补给",
+      "counteraction": "三楼里侧另见两瓶旧水但通路/声响不明，二楼有不属于医护规则的声音重复",
+      "choice": "决定先勘二楼真实退路及纱布，周启留意前厅，林渊提示小满别单独靠门",
+      "cost": "暂时失去获取3F两个新见水瓶的机会",
+      "payoff": "听到与林渊刚说过的话一字不差的复述，确认二楼有实体模仿者",
+      "mainline_change": "听到与林渊刚说过的话一字不差的复述，确认二楼有实体模仿者",
+      "mechanism": "实地资源与声源物证",
+      "next_trigger": "它的爪子已经贴近病区门",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 22,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 21,
+          "independent_action_seconds": 15,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "internal_id": "A02",
+      "title": "小禾救我",
+      "attempt": "四人试图从二楼退走并保护小满",
+      "counteraction": "拾声者由2F205实物病房门扑出抓脚踝，小满即刻识破假声仍被拖入两间连通的病房",
+      "choice": "小满锚住床脚留下有效拉痕、周启破主门、陈七报真实连通路线，林渊追到可视门边",
+      "cost": "小满疼痛、肩脚受伤，林渊再见救人失败的画面",
+      "payoff": "她在实见危险中喊小禾救我，林渊因极端保护冲动自发切阿禾",
+      "mainline_change": "她在实见危险中喊小禾救我，林渊因极端保护冲动自发切阿禾",
+      "mechanism": "实体掳人以及联通房间的时间差",
+      "next_trigger": "阿禾必须先找到小满被拖往哪间房，不能瞬移",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 16,
+          "independent_action_seconds": 19,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 17,
+          "independent_action_seconds": 19,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "internal_id": "A03",
+      "title": "她不是林渊",
+      "attempt": "阿禾从病区连通路径救出小满",
+      "counteraction": "拾声者抓牢脚踝并把人向206旧床下拖，直通门被倒架卡住",
+      "choice": "阿禾按陈七指路实跑侧门和浴间，以目视定罪定位爪关节，再用实刀击开抓握，周启挡后续扑击",
+      "cost": "阿禾使用S也加重旧肩伤，小满有真实抓伤",
+      "payoff": "小满从爪下真正被拉回，怪物沿另一实门逃出，没有医护死亡",
+      "mainline_change": "小满从爪下真正被拉回，怪物沿另一实门逃出，没有医护死亡",
+      "mechanism": "阿禾合法S攻击和队员真实开路",
+      "next_trigger": "需赶离病区，找到能坐下包扎的二楼房间",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 16,
+          "independent_action_seconds": 19,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 17,
+          "independent_action_seconds": 19,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "internal_id": "A04",
+      "title": "镜子里的人",
+      "attempt": "四人实走二楼廊道寻找临时包扎点",
+      "counteraction": "活动室里破旧箱子有假发与裂角手镜，阿禾对物件和小满面容产生强烈异样",
+      "choice": "阿禾不凭镜子召唤人格，先包扎后亲手装起假发与手镜、说别把我当成她",
+      "cost": "伤口和物品不消失，阿禾情绪负担增强",
+      "payoff": "小满亲眼见阿禾对镜子与假发反应异常，物件作为后续夜妆伏笔被真实收藏",
+      "mainline_change": "小满亲眼见阿禾对镜子与假发反应异常，物件作为后续夜妆伏笔被真实收藏",
+      "mechanism": "真实旧道具引发主观记忆而非魔法",
+      "next_trigger": "持续的情感刺激能否让阿禾再次失去主控",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 22,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 21,
+          "independent_action_seconds": 15,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "internal_id": "A05",
+      "title": "你救了我两次",
+      "attempt": "四人离开二楼活动室并处理阿禾情绪冲击",
+      "counteraction": "阿禾把小满误认与自身旧记忆交织，身体肩痛和救援紧张无法立即恢复",
+      "choice": "阿禾自行停下自责式进攻倾向，强烈情绪使林渊回归；陈七与周启各核对物证，再沿实际楼梯回B1",
+      "cost": "林渊缺失救援经历、第三夜前段少量饮水消耗殆尽",
+      "payoff": "林渊主控，阿禾没有使用忏悔；四人回B1等待L3长夜后段配餐间取水时才正式正面遭遇医护",
+      "mainline_change": "林渊主控，阿禾没有使用忏悔；四人回B1等待L3长夜后段配餐间取水时才正式正面遭遇医护",
+      "mechanism": "情绪冲击的非自主主控更替",
+      "next_trigger": "承接v0.8 EP01三楼配餐间仍留两瓶实水的风险行动",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 22,
+          "independent_action_seconds": 14,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 21,
+          "independent_action_seconds": 15,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "heard_voice",
+      "setup_episode": 1,
+      "due_episode": 2,
+      "promised_result": "拾声者仅复述在实物廊道听过的林渊句子，小满辨出方位不对仍遭真实扑击"
+    },
+    {
+      "id": "floor_route",
+      "setup_episode": 1,
+      "due_episode": 3,
+      "promised_result": "2F205和206病房有实物共用洗漱门与两扇走廊门，周启等人不瞬移救人"
+    },
+    {
+      "id": "second_switch",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "小禾救我只是情绪/记忆联想，真实危险和林渊精神冲击才促成第二次人格接管"
+    },
+    {
+      "id": "mirror_wig",
+      "setup_episode": 1,
+      "due_episode": 4,
+      "promised_result": "H02先看到二楼活动室破箱，A04阿禾实体抵达后打开，亲手收走旧假发和手镜，无夜妆、无阿月"
+    },
+    {
+      "id": "third_night_water",
+      "setup_episode": 1,
+      "due_episode": 5,
+      "promised_result": "H05留下500mL分饮至L3早段用尽；三楼配餐区里另两瓶水原已存在但未能取走，接v0.8 EP01"
+    }
+  ]
+}
