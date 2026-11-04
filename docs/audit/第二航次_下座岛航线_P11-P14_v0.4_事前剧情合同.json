@@ -1,0 +1,192 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "用户在P10后要求‘继续，他们只是去往下个岛的航线’。纠正将‘登船＝回现实获救’误写的潜在错误，以P11候船证据、P12靠岸争议、P13真实全员登船并得知航路、P14实体航行至下岛为四个不可合并的转折。只延续现有新14旧4、秦树死的未批准候选分支。没有授权整个下一座岛的怪物体系/任务定稿。",
+    "merge_review": "把等待验尸/码头退路合并P11，把舷梯争论和可执行次序合并P12；P13真正登船并揭航线的事件不能只口播跳过；P14完成实航路和下岛第一步，不添加下一岛BOSS；不重复写P07—P10既有击杀。",
+    "revision_source": "前接main的P07—P10 v0.3候选（秦树死亡、铜额压杀），并读取世界底层第4节已确认航次规则与第7节下一航次信息边界；用户本轮新明确‘他们只是去往下个岛的航线’，高于过去误解性措辞。"
+  },
+  "audience_promise": "观众先想知道当批任务完成是否能赶上游轮及旧四是否被留下；回报是十八名活人真的上船，但船的目的不是家而是下一座岛，胜利有边界且伤亡不能抹去。",
+  "main_engine": "船返港不是即刻传送，有限登船时窗和新旧群体不信任将伤员卡在舷梯前；成功登船仍无法结束无限岛屿连续挑战。",
+  "protagonist_strategy": "林渊与小满坚持亲见证据、实际船期与每人自主选择，乔澄/杜衡经过分歧以真扶伤员兑现合作；旧队不得以‘我们也杀怪了’伪造系统个人资格。",
+  "ending_payoff": "新14＋旧四＝18个活人实登船并随航线到下一座岛；秦树仍为本分支唯一新批死亡，遗体不复活；所有伤、物品与知情边界继续，未承诺回现实、也不提前解释无限系统本质。",
+  "endpoint_kind": "voyage_handoff_not_homecoming",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 11,
+      "title": "船为什么还不来",
+      "attempt": "在P10实体击杀候选III后守住18名活人、秦树遗体与靠港路，等待本航次可见返船证据",
+      "counteraction": "怪物虽死游轮却未立即转向，杜衡怀疑目标身份、其他新人要求回塔再确认，伤员夜里难以移动；秦树的身体不会因击杀而复活",
+      "choice": "乔澄与林渊将已亲见的任务外观、实体死亡、未收到系统确认分栏；周启守伤员、小满带人实去港内检查低坡与栈桥，杜衡与新人实际安置秦树遗体，随身保留他自己写的名字，放弃夜里再冲塔",
+      "payoff": "十八名活人实守至临近船可能回来的窗口，港口一条可达登船路已确定，船终于从近海调整航向但尚未靠岸",
+      "cost": "又耗一段真实长夜，伤情和水仍有限、秦树不能挽回，新人不再把杀怪即刻解脱当成真事实",
+      "mainline_change": "从'怪死船为什么不来'的恐慌转为有限证据和实际接船准备",
+      "mechanism": "P10遗体/文字物证+真实海面移动观察+旧港栈道实查",
+      "next_trigger": "P12旧队是否能在本批新十五任务触发的返港窗口实际靠岸登船、谁先上",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 19,
+          "independent_action_seconds": 19,
+          "pause_seconds": 6,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 19,
+          "independent_action_seconds": 19,
+          "pause_seconds": 6,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "最后四个人",
+      "attempt": "游轮真实靠港后让伤者和18名幸存者以可撤可数方式登船",
+      "counteraction": "新14中的人认为先上船的是他们，担心留不出时间和空间给旧四；近海特殊浮航的船与仍然会沉人的黑海之间只有窄舷梯，杜衡手伤、周启肋伤使速度变慢",
+      "choice": "乔澄不给旧队虚构专属船票，也不将新批门槛变成系统名额；周启本人选择与旧队最后上，苏小满把伤势、上船次序写在可见纸板，杜衡主动留在坡侧帮助护住窄梯，而不是再把某人当诱饵",
+      "payoff": "新十四中的先遣人员稳稳沿实体舷梯上船，其余人在码头留出真正可通的通道；旧四与杜衡被困最后的选择风险仍待付回报",
+      "cost": "临近窗口众人仍得分担实物搬运伤员的时间，群体之间的疑心没有一语消除",
+      "mainline_change": "从争夺船票转为用实物次序和亲手辅助承担集体登船",
+      "mechanism": "返港靠岸、真舷梯和有限时窗、不以个人击杀积分生成门票",
+      "next_trigger": "P13旧四是否真的能站上船甲板、是否有人被留在沉物海岸",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "不是回家的船",
+      "attempt": "把旧四最后一批人连同新14实际从海边栈桥移至船上",
+      "counteraction": "舷梯持续轻晃，周启肋伤使抬脚困难，伤后的杜衡无法单手承受整个旧队重量；上船后人群以为自己已获救，但船的真实航线板显示下一停靠点仍是一座岛",
+      "choice": "旧四与新队协力真扶周启上船，杜衡从船端而非海边实际接应；林渊公开承认此前并不知道船的终点，让大家看真实航线板并允许各自问清，不向他们许诺回家",
+      "payoff": "新批14+旧四＝18活人全部实际登船，游轮真实起航，众人亲眼看见不是返回大陆而是驶往下一座岛",
+      "cost": "秦树留在旧岛的遗体与石堆不会随船复活；伤势物资仍存，欢呼与解脱希望化为继续挑战的复杂失落",
+      "mainline_change": "当前岛通关从'逃出去'被重新定义为跨岛转场，关系由本岛合作转向下岛同行",
+      "mechanism": "狭窄实舷梯/旅客真实登陆和船上实际航线显示",
+      "next_trigger": "P14船在海上真的抵达新岛，十八人的共同行动是否仍能维持",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "下一座岛",
+      "attempt": "在海上航程中确认航线和下一陆地点是否真实，并让新人旧队带着上一岛未解伤痛进入下一关",
+      "counteraction": "夜间从船上远看只有黑水，谁也不知道新的岛会有什么；乔澄认定秦树缺席、杜衡觉得通关只是另一种绑架，林渊无法替阿禾/阿月决定他们是否接受这趟航程",
+      "choice": "小满与林渊亲身在甲板看见新海岸才把地图上标为'新岛实见'，不替阿禾阿月编记忆；人群确认随身带了有限水、真实伤员需慢行，决定等实际靠稳、找到退路再踏新岛石阶",
+      "payoff": "游轮沿真实水面完成航行，出现与遗弃之岛不同的新海岸并真正靠近其可用石码头，十八人依次走到船侧准备下岛；本轮结束在第一名真实踏上新岛的动作，绝不声称回现实或全副本通关",
+      "cost": "他们没有回家、只跨过一座岛，已知资源有限、秦树仍死、下一岛任务不确定",
+      "mainline_change": "叙事从本岛逃生转为连续航线上的下一关，尚未确定新岛生态与怪物",
+      "mechanism": "实际航路/船体/下船步行、目见新岸/伤势延续",
+      "next_trigger": "下座岛的实际环境、任务与18人中的合作分歧需要从已经看到的地形开始，而不是凭空定新怪等级",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 19,
+          "independent_action_seconds": 19,
+          "pause_seconds": 6,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 19,
+          "independent_action_seconds": 19,
+          "pause_seconds": 6,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "author_route",
+      "setup_episode": 11,
+      "due_episode": 13,
+      "promised_result": "岛上杀III只能打开本航次靠港条件，P13船上实物航线板与已离港航程清晰证明下一站是另一座岛而非返现实世界，不泄露人人已死秘密"
+    },
+    {
+      "id": "boat_wait",
+      "setup_episode": 11,
+      "due_episode": 13,
+      "promised_result": "P10 III不呼吸但船仍外海，P11守夜实际发现船开始调整航向、P12靠港放真舷梯、P13十八人实际依次上船并真离港"
+    },
+    {
+      "id": "survivors",
+      "setup_episode": 11,
+      "due_episode": 14,
+      "promised_result": "秦树死亡分支新14+旧4=18人，P11—P14无新增死亡、无凭空多出新十五或旧首航六人，P13实登18人、P14踏新岛18人在船上分别准备，伤员真实降速"
+    },
+    {
+      "id": "body",
+      "setup_episode": 11,
+      "due_episode": 13,
+      "promised_result": "秦树P10尸体抬港，P11新人作一次实际安置并保留随身布帽/自写名字，P13遗体仍留旧岛不复活，不让环境下一次还原替他们补生命"
+    },
+    {
+      "id": "water",
+      "setup_episode": 11,
+      "due_episode": 14,
+      "promised_result": "P07周启守营2×500mL，其中一瓶开过并饮去两口；陈七携1×500mL，P11至P14实保留这三瓶但不宣称检验安全或船无限供给；旧林站前轮2×1L不能返回"
+    },
+    {
+      "id": "persons",
+      "setup_episode": 11,
+      "due_episode": 14,
+      "promised_result": "林渊知道阿禾阿月靠此前小满口述、他还没共享主控记忆，不靠一句‘阿禾出现’自动召唤也不提前解密生前死亡；阿月需阿禾实际夜妆才可出现，本段不任意发生"
+    },
+    {
+      "id": "old_board",
+      "setup_episode": 12,
+      "due_episode": 13,
+      "promised_result": "第一波放新15后旧4不能立即登；本批III死后的返港窗口允许旧滞留者从实际舷梯尝试上船（世界文档当前为工作方案，用户新明确船是去下一岛）并实际成功，但不创设个人积分或独占船票"
+    }
+  ],
+  "performance_status": "87-90秒纯写前分场预算，非配音/演出；若真实文本超时，后续拆集。"
+}
