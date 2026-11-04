@@ -1,0 +1,154 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "‘继续’授权顺序推进；保留既存M02、M03两集并定向改稿，另用一集新增M04解决M03已拿到水但还在矿区、F01却已踏上外缘林坡的缺失过渡及小满的独立选择；不增添其它补给回合。",
+    "merge_review": "M02侦查/落点在同集，M03真取水与实体投送同集；M04必须独立，因为捡瓶还是保人的决定在拿到水后才有真实反抗与代价。旧M02/M03与新版本不得双计。",
+    "revision_source": "原《院长脱险至东南裂谷》M02/M03 v1.3M和M01 v2.2；M04为首次新增候选，原M01旧文本保留历史"
+  },
+  "audience_promise": "观众看见五阶局部震动压迫下真实取出有数的饮水、从矿区撤离，不靠打败V阶或凭空净化水；小满最后能自主叫停冒险。",
+  "main_engine": "有限食水与无法精准预知巨兽的压迫冲突，角色以实地观察、实际标点和提前撤路抵抗贪心，获得实物却必须舍弃更多。",
+  "protagonist_strategy": "林渊限制只查外棚并根据真正落石改路；小满报告巨兽动向、实际牵轻扣并选择不捡失瓶；陈七只投手中物到亲摸空位；负伤周启承担轻阻而不正面交战。",
+  "ending_payoff": "原棚8×500mL水中能取出4瓶，走外缘排水坎时损失1瓶，最终实带3×500mL旧封口瓶上矿区外林坡，后续F01仍有新的实体危险。",
+  "endpoint_kind": "bounded_supply_and_character_agency",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "internal_id": "M02",
+      "title": "地在听",
+      "attempt": "从南林业站实走矿区旧施工路，寻找外围存水证据",
+      "counteraction": "弃矿车被落石撞响，V阶巨兽在真实峡壁后局部转向，完整能力未知",
+      "choice": "不冒险越轨，沿外墙绕行，小满实记排水石坎候选回路，陈七亲走实标外棚空基石",
+      "payoff": "以现场证据与实标为M03进入外缘物资棚争到暂时窗口",
+      "cost": "数小时步行及周启肋伤负担，旧水只有少量携行",
+      "mainline_change": "四人从盲目靠近裂谷转向只查可撤出的外缘棚",
+      "mechanism": "局部地震响应的不确定推断＋真实路线/实体标记",
+      "next_trigger": "M03封存救援水柜是否还有可取瓶，矿车挡块还能撑多久",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "internal_id": "M03",
+      "title": "只能带走这些",
+      "attempt": "从外缘物资棚获取旧工单承诺的封口水",
+      "counteraction": "柜后重架压住四瓶，矿车原木挡块持续裂开后真滑落，V阶实体动静开始使高坡落石",
+      "choice": "只拿靠前四个500mL瓶、真实交接给陈七手中布袋并投至此前摸过的外基石，放弃不可及四瓶",
+      "payoff": "真正得到4×500mL旧封口瓶（不是验明可饮），人都真走出棚并回收投送布袋",
+      "cost": "其余4瓶留棚、周启肋伤疼、矿区正面坡道已有落石",
+      "mainline_change": "取到有限实物但尚不能安全撤离矿区",
+      "mechanism": "柜重架的真实承重阻碍、非活体投送、地面震动带来的局部危险",
+      "next_trigger": "M04排水石坎能否真的撤出、是否需要为丢失的一瓶回身",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 14,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 14,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "internal_id": "M04",
+      "title": "别回头捡",
+      "attempt": "沿M02先前看见的外侧排水石坎离开矿区并保住水",
+      "counteraction": "路窄、伤者行动慢，外翘断铁丝刮破袋口让一瓶完整封口水滚到不稳外坡，地面石屑正在下滑",
+      "choice": "小满亲眼指出松坡风险并明确阻止陈七回捡，短丝只牵轻钩、四人走真正石坎绕外坡",
+      "payoff": "3×500mL封口旧水与四人实际进入外缘林坡，能从那里接F01实体遇袭",
+      "cost": "滚出的500mL水实物留岩坡；小满没有获得V预知、周启仍伤",
+      "mainline_change": "小满从被动受保护者成为能基于证据叫停错误补给冲动的决策者",
+      "mechanism": "真实落物损耗、短丝牵轻网钩、负伤行走",
+      "next_trigger": "F01林坡倒塌矿车围栏旁有仍能实体捕猎的拾声者，阿禾后续真实触发尚待写",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 19,
+          "independent_action_seconds": 16,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 19,
+          "independent_action_seconds": 16,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "mine_tram",
+      "setup_episode": 1,
+      "due_episode": 2,
+      "promised_result": "M02松木挡块裂、矿车撞轨诱发可见V转向；M03同一挡块真断，车再撞终止挡块，巨兽实际压迫正面坡"
+    },
+    {
+      "id": "anchor",
+      "setup_episode": 1,
+      "due_episode": 2,
+      "promised_result": "陈七M02实走外棚基石摸空落点；M03亲自持四瓶水真布袋短投该石并由队员走去实取"
+    },
+    {
+      "id": "escape_route",
+      "setup_episode": 1,
+      "due_episode": 3,
+      "promised_result": "小满M02观察记录外缘排水石坎，M04实际测试石阶、轻丝牵网钩，人真实逐个行过"
+    },
+    {
+      "id": "water",
+      "setup_episode": 1,
+      "due_episode": 3,
+      "promised_result": "M01站3×1L，M02携1瓶开封旧水、另2瓶留站；M03从柜内8瓶取前4瓶×500mL，M04一瓶滚坡留失，3瓶×500mL接F01；封口不等于已检验可饮"
+    },
+    {
+      "id": "xiao_choice",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "M03小满用结构观察劝陈七不拉重架，M04亲见松坡落石并主动不捡失瓶，团队实际遵从"
+    }
+  ]
+}
