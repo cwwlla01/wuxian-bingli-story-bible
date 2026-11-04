@@ -1,0 +1,169 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "F01—F05已经季终、新十五人刚下船；用户连续要求继续。以第二航次序章三个短集分别解决海警告是否真实、资源与信任谈判、旧路还原后的实地验证，暂不擅定完整第二季及新人十五人全部名单。",
+    "merge_review": "简单的上船失败并入P01救生圈试验；水与谈判同P02；完整实际探路/遇怪撤离同P03。删除任一集会导致下集的疑心、资源选择或合作缺失前因。",
+    "revision_source": "直接延续季终F05 v2.4及世界底层航次规则；此三集为新创候选正文，非原有段落修订，不宣称作者批准新人姓名"
+  },
+  "audience_promise": "岛上旧队留下的求生警告能否让新十五人相信？三集以一个可见试验、一次资源争执、一次实地撤路付出代价，形成有限而非无条件的信任。",
+  "main_engine": "拥有亲历危险的旧四也缺新岛重置后的实物信息；新人不愿被来历不明的老队操控；救人不能靠大包大揽，只有可检查证据和自愿冒险产生信任。",
+  "protagonist_strategy": "林渊先提出救人后接受小满限制行动与承认未知，小满维护有限饮水又提供有限真帮助，新人乔澄用实物试验、杜衡以合理怀疑逼旧队拿出可复查路线，双方共同承受实路风险。",
+  "ending_payoff": "新队15和旧队4均存活，海警告被事实支持，旧队承认还原后的地图不一定有效，双方建立可再次实地合作的最小信任；第二批指定III的72小时任务仍在，不提前上船。",
+  "endpoint_kind": "earned_limited_trust",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "internal_id": "P01",
+      "title": "纸上的话",
+      "attempt": "新十五人第一次登岛，试图判断已还原码头是否可以立即离开；旧四想让其中至少一人看到警告并保命。",
+      "counteraction": "杜衡把旧队警告当作诱导，新人半数急着走；旧救生圈一投就沉，站在湿滑岸缘的人险被带下去。",
+      "choice": "乔澄主张用旧桩和实体绳测试不下海，旧四只从可以退的坡上报出危险、不冲进十五人当救世主。",
+      "payoff": "新人亲眼看见浮具沉没，十五人都没有落海；至少两名新人选择听旧四说明。",
+      "cost": "杜衡虽确认海不浮，却疑旧四想诱导新人进镇；老队暴露自己的位置。",
+      "mainline_change": "空白警告变成亲眼证据，但信任仍未建立。",
+      "mechanism": "海水无正常浮力＋实桩实绳＋双向距离喊话",
+      "next_trigger": "杜衡要求旧四说明水源和村路，并质疑他们是否值得相信",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 10,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "internal_id": "P02",
+      "title": "这瓶水不能给你",
+      "attempt": "林渊想给十五人一条短时可撤的路、小满要保住旧队有限补给。",
+      "counteraction": "杜衡看到三瓶矿棚旧水便要求给新队，指责老队拿死亡经验换控制权；过去林站库存已被环境还原，不是确定的剩水。",
+      "choice": "小满驳斥“有两瓶留站”的过时账，拒绝虚报水源；交出一段自己携带的有限旧纱布为乔澄包擦伤，林渊承认只提供亲见路线，不保证整条镇路安全。",
+      "payoff": "争执后，新人允许杜衡和乔澄带着两个目击角度与旧队实地侦察路口；其余十三人实际留在码头警戒。",
+      "cost": "旧队耗掉有限敷料、公开水袋存在且暂未得到新人信任；新人分队前需约定真实返回路线。",
+      "mainline_change": "从“相信我”改为“陪我去查”，双方用有限协作代替无条件服从。",
+      "mechanism": "水/纱布资源守恒＋证人分层事实＋可达路线",
+      "next_trigger": "新旧六人侦查还原后的镇路是否仍和旧图一致",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "internal_id": "P03",
+      "title": "退路不是谁的",
+      "attempt": "六人（旧四＋新乔澄、杜衡）实地检验出镇口到旧石路可否通行。",
+      "counteraction": "环境还原后的旧门重新卡着，林渊旧图误判岔口；一只确有实体的I骨甲猎犬沿当前猎路追来，新人差点被困在卡门内侧。",
+      "choice": "林渊公开承认旧图失效；小满短丝只拨动真小卡扣，林渊与乔澄实际推门、周启负伤短挡，陈七将手持小罐投至此前实摸空石处制造一息声差，六人有序退回码头。",
+      "payoff": "双方真走回码头，十五名新人与旧四全员仍在，乔澄确认怪危险但杜衡仍对路线保留疑心；旧队只写亲见警告，并不要求拜师。",
+      "cost": "周启肋伤加重、旧队失去先前可按图安全通行的假设，新人错过部分准备时间。",
+      "mainline_change": "从一张前轮旧地图变成新航次由双方亲眼标出的一条危险实路。",
+      "mechanism": "重置后的实物路线＋有限锚丝＋先标非活体投送＋I阶实物追击",
+      "next_trigger": "新人三天任务倒计时继续，旧队若想协作必须面对新目标信息与互不完全信任",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 14,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 4
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 11,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 4
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "sea_warning",
+      "setup_episode": 1,
+      "due_episode": 1,
+      "promised_result": "F05后实挂警告至少一名新人读取，P01真实救生圈从固定码头实绳下沉而无人入海；新人不被迫当场全信"
+    },
+    {
+      "id": "old_water",
+      "setup_episode": 1,
+      "due_episode": 2,
+      "promised_result": "旧四随身3×500mL矿棚封口瓶在、全岛还原前留林业站的2×1L不能算跨轮随身，P02小满主动纠正林渊旧账；封口完整不等于验证安全"
+    },
+    {
+      "id": "two_new_names",
+      "setup_episode": 1,
+      "due_episode": 3,
+      "promised_result": "暂只命名两位新十五人乔澄与杜衡（候选），另十三人在码头，P02两位与旧四实走探路，P03六人实返后没有暗丢人"
+    },
+    {
+      "id": "new_map_not_same",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "P02旧队明确重置造成原路未核实，P03实遇被还原门框与实际怪物，修改纸图且明示旧图无保证"
+    },
+    {
+      "id": "identities",
+      "setup_episode": 1,
+      "due_episode": 3,
+      "promised_result": "林渊已从小满口述知道阿禾/阿月，她们主控不在，本三集不发生召唤、阿月独立躯体、林渊凭S熟练越阶；陈七注册不取消"
+    },
+    {
+      "id": "capability",
+      "setup_episode": 3,
+      "due_episode": 3,
+      "promised_result": "陈七亲摸可接小罐的空石位后，从自己手中投真小罐至该处；小满只拉轻扣、周启短挡I猎犬，实际要人自己走"
+    }
+  ],
+  "performance_status": "三集每集83—88秒仅预算；全文若演出或配音超时需调整正式分集，未实测。",
+  "branch_status": "第二航次／第二季序章候选，不指定第二批III BOSS个体、完整新人名册或全季长度。"
+}
