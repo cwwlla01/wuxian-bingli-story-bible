@@ -1,0 +1,188 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "P26实救韩震后罗峰生死、水与赵骁是否回头的核心悬念未偿。P27组织证据与水账，P28现场证实生存，P29让罗峰本人作证并引发真实机械危险，P30救人损水与21人归营，四次独立状态改变。",
+    "merge_review": "饮水与出发合并P27；P28确认活体与P29亲自对质的回报不同；P29的锈销与瓶水形成P30真实取舍；不把旧井重门救韩震重复写一遍。",
+    "revision_source": "main P23–P26 v0.7，韩震加入后20人：新14＋旧4＋首批已登船赵骁/韩震2，阿禾同体主控、林渊失主控；旧水周启2×500mL（一开余大半一未开）、陈七1×500mL未开＋P22小杯未验雨槽水。",
+    "approval_boundary": "P09秦树死亡、P13旧四同行、P20赵骁、P26韩震获救及本轮罗峰活着都为候选；作者确认游轮只驶往下一岛而非回现实，新岛任务/时钟未知。"
+  },
+  "audience_promise": "罗峰是否真死、赵骁是否会回头、二十人一杯未验水的压力，均在可演场景中明确得到有限答案。",
+  "main_engine": "旧人愧疚、缺水与锈溢流板迫使团队在物资和活人之间行动取舍。",
+  "protagonist_strategy": "小满拒胁迫试水及无退路劳役；乔澄验实物；阿禾不滥S；罗峰为自己说话；赵骁实际回头救人。",
+  "ending_payoff": "罗峰活着实返，21名会合：新14＋旧4＋首批登船者赵骁韩震罗峰3；从旧水柜只实际带回两瓶500mL未验证水，余4瓶失落；无自动原谅。",
+  "endpoint_kind": "costly_rescue_and_finite_water",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 27,
+      "title": "二十个人的水",
+      "attempt": "二十人面对开封旧水已不足、雨槽小杯水仍未检验，有人提议伤员试饮。小满拒绝逼人试水。赵骁实交",
+      "counteraction": "出当年从罗峰袖子上扯下的旧布片；韩震仅据井下亲见说明旧井上方有通气口。新乔澄杜衡2＋旧阿禾",
+      "choice": "陈七小满3＋首批赵骁1=6自愿查上层道，留新12＋周启＋韩震=14。韩震在知情后自愿从旧开瓶少饮两口，实际扣水。",
+      "payoff": "旧人关系与需水账从威逼转向自愿查证",
+      "cost": "旧开瓶水消耗且新岛饮水依然未解决",
+      "mainline_change": "旧人关系与需水账从威逼转向自愿查证",
+      "mechanism": "水瓶实账和旧衣布证",
+      "next_trigger": "是他的脸",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 14,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 2
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 2
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 2
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "是他的脸",
+      "attempt": "六人沿已走过的维护窄桥和雨槽上坡，实查灰壳与锈格栅，不能重用损坏的北井大绞盘；陈七在实墙轻",
+      "counteraction": "敲，有人从栏后主动回答并露出真实面容和断袖。赵骁认出罗峰，他却不许赵靠近，叫众人不要碰锈溢",
+      "choice": "流销。",
+      "payoff": "罗峰确实活着，身份已实见，旧队矛盾更尖锐",
+      "cost": "旧伤及临场风险未因剧情推演清零",
+      "mainline_change": "罗峰确实活着，身份已实见，旧队矛盾更尖锐",
+      "mechanism": "实地坡道/真人可见回应",
+      "next_trigger": "松手以后",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 20,
+          "independent_action_seconds": 19,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 2
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 20,
+          "independent_action_seconds": 18,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 2
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "松手以后",
+      "attempt": "众人从高廊侧坡实走至罗峰所在上层通道，罗峰亲口说被扯断袖、独自走上干检修道、并未被赵骁找回",
+      "counteraction": "；赵骁当面承认当年没有回头。罗峰给看旧柜中剩6×500mL瓶；陈七真拿2瓶入包，不宣称安全",
+      "choice": "净水。已在P28实见受压锈销此时裂，外侧护板滑压罗峰脚，柜上另4瓶将被冲走。",
+      "payoff": "活人亲证不等于自动和解，真正救人与稀缺水起冲突",
+      "cost": "旧伤及临场风险未因剧情推演清零",
+      "mainline_change": "活人亲证不等于自动和解，真正救人与稀缺水起冲突",
+      "mechanism": "当面对质、旧水柜实拿/锈销承压",
+      "next_trigger": "这一次我回来",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 14,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 2
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 14,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 2
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 2
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "这一次我回来",
+      "attempt": "小满安全侧短丝只示警轻销；赵骁主动不抢剩4瓶而用真实杠杆配合阿禾乔澄杜衡抬板、陈七沿实路扶",
+      "counteraction": "罗峰脱险。另4瓶被排水冲到不可达沟底，只有P29陈七真装的2×500mL保留且水质未证。六",
+      "choice": "人加罗峰七人逐个过石桥真返14守营，现地21=新14＋旧4＋首船赵骁韩震罗峰3；罗峰愿同行但未原谅，其他三名旧船者未知。",
+      "payoff": "同一旧错误这次由真实回头救人改写行为，物资代价和关系裂痕保留",
+      "cost": "放弃4瓶500mL旧水以救罗峰；封口不能证可饮",
+      "mainline_change": "同一旧错误这次由真实回头救人改写行为，物资代价和关系裂痕保留",
+      "mechanism": "同场救人、四瓶实际遗失、真返营",
+      "next_trigger": "下一岛真正任务、饮水和首船其余人去向仍未明",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 14,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 2
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 14,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 2
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 14,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 2
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "alive",
+      "setup_episode": 27,
+      "due_episode": 30,
+      "promised_result": "旧断袖实物→实找到高廊→罗峰本人亲见/口述→21人真返营；过去未回头不因罗峰活着消失"
+    },
+    {
+      "id": "water",
+      "setup_episode": 27,
+      "due_episode": 30,
+      "promised_result": "旧瓶周启2陈七1与P22未验杯账不复制；P27开瓶实际小饮；P29旧柜6×500mL先取2瓶入陈包；P30余4瓶失落，带回新2瓶未验瓶水"
+    },
+    {
+      "id": "roles",
+      "setup_episode": 27,
+      "due_episode": 30,
+      "promised_result": "6人去、14人留；7人回14，21人现地：新14旧4首批登船赵韩罗3；其他唐梨许知意马青青未知"
+    },
+    {
+      "id": "persona",
+      "setup_episode": 27,
+      "due_episode": 30,
+      "promised_result": "阿禾主控同一男体，阿月已晨归、无夜妆不出，林渊缺席且日后由小满口述"
+    },
+    {
+      "id": "world",
+      "setup_episode": 27,
+      "due_episode": 30,
+      "promised_result": "不造第二岛III/72h/特定光暗规则，不用能力瞬移活人或丝吊人"
+    }
+  ],
+  "performance_status": "88/87/89/90秒均写前预算、未有配音演出实测，密度可能超标。"
+}
