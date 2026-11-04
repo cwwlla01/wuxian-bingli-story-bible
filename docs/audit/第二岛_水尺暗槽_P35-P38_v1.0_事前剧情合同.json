@@ -1,0 +1,195 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "P34林渊刚回主控、21人获近满5L但未验雨水、第二岛外界威胁仍未直接呈现。用P35冲突/水质疑虑→P36实查高低水槽与建立有限人格记录→P37首次亲临异物攻击与真实救人→P38实取有限样水并带回人群四个不可互换的具体改变。",
+    "merge_review": "P35争水与分组出发并一集；P36文字沟通与实体水尺同一段实途；P37留充分空间给未知活物真攻/真救而非只喊；P38解决带物返营与水质信息边界，不再用四集找失踪船友的老公式。",
+    "revision_source": "main P31—P34 v0.9，现地新14+旧4+首船赵骁韩震罗峰3=21；林渊P34从阿禾主控返回，必须先听小满本人讲P17以来经历再看阿月手写记录。周启旧矿2×500mL（一开余减一封）、陈七旧矿1×500mL未开、上层旧瓶2×500mL（蓝背心开饮1瓶余减，另一未开）、P22旧浑水小杯及P34近满5L直接雨水桶（未检，旧油布可能污染），再无P33失掉的半桶。",
+    "approval_boundary": "作者只新确认船跨岛不回现实和人格/天赋底线。P09秦树死亡、P13旧四登船、P20赵骁P26韩震P30罗峰返场及本轮水尺/半透明活物/搪瓷壶、人格记录均为工作候选；不得自动设定第二岛III/72h/22+2周期。"
+  },
+  "audience_promise": "二十一人能否避免因渴而饮错水？林渊回归以后是不是只会躲在阿禾名下？水下究竟有真危险还是疑神疑鬼？最终让人亲眼看到成因风险、实地救人、真带回有限样水而不谎称净水。",
+  "main_engine": "近满旧雨水仍不知可饮，旧人对同体能力的偏见与实在水工活物同时逼迫选择，不可靠万能技能消除物理问题。",
+  "protagonist_strategy": "林渊公开记忆边界、以口述证词和署名纸页沟通、实地行动救罗峰；小满不替阿禾阿月答应、灵丝只助轻扣；乔澄核实管线与水账；罗峰自主表态。",
+  "ending_payoff": "21人仍活（5出16守5返），旧雨桶近5L仍待处理，另有实际外取约1L上槽疑水与可用搪瓷壶【候选】，下槽确有未知会抓人的活物；林渊不冒充阿禾S，三人格仍有真正主控记忆边界。",
+  "endpoint_kind": "new_island_creature_encounter_and_partial_water_evidence",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 35,
+      "title": "一桶水不能分",
+      "attempt": "二十一人试图把P34带回的近满5L雨水按人数公平分给大家，林渊刚复主控也试着承担队伍协商",
+      "counteraction": "桶口实见一层油亮异色薄膜，旧油布存在未知残留，几名新人怀疑乔澄故意扣水，又质疑林渊在阿禾主控时的行为",
+      "choice": "林渊当众说明我只记得小满口述和亲笔、当前是林渊，不冒称阿禾；小满和乔澄共同标注整桶待查不得直接喝，现有两开三封500mL旧瓶继续轮值清点；罗峰主动提议走P32外仓上侧未探小集水堰寻找避油布的物源",
+      "payoff": "真正阻止以未验证水安抚21人的错误，林渊获得不冒充阿禾的有限合作；五人选择实去踏勘：新乔澄＋旧林渊小满陈七＋首船罗峰，余16守台",
+      "cost": "这桶水仍暂不能饮，21人更渴；林渊公开揭自己失忆让部分新人信任下降",
+      "mainline_change": "从争抢一桶疑水转为透明账目与主动查源",
+      "mechanism": "实物水膜与桶/旧油布追源、公开清点、真正出发分组",
+      "next_trigger": "上侧集水堰与下层污染暗槽是否能实地区分，是否有不靠猜的水流路径",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "title": "写给没醒来的人",
+      "attempt": "五人沿P32旧仓实岩向水工高位石尺查可接水分支，同时林渊要给缺席人格留真正可用但不控制她们的记录",
+      "counteraction": "旧水尺仅写高排/低排两个管标，锈迹让人无法从标签推水质；队伍有人要求林渊把阿禾叫出来带路，罗峰对上次被赵骁丢下的井口再次紧张",
+      "choice": "林渊写三栏亲见/小满转述/阿月或阿禾亲字，明确当下自己不能叫任何人格出来；小满亲自保留对口述的修正权；众人逐个实走高石阶，从沟壁跟踪上、下真实两道管找到旧独立上集水槽，看到下槽网格损坏，暂不取水",
+      "payoff": "完成有限的跨人格真实沟通约定而非共享记忆；实见两个独立供排路径与上槽有水、下槽黑浊，但上槽水质不保证安全",
+      "cost": "五人离营更远，罗峰伤踝痛、林渊旧肩受限，未知金属栅不能被当安全防护",
+      "mainline_change": "林渊的身份从可被随时呼唤的武器转为独立团队成员，水源从口传变成可实查的水工空间",
+      "mechanism": "随身小册与证词列、上石阶/高低管物理追踪",
+      "next_trigger": "下槽格栅后到底藏着什么，怎样靠近上槽取样",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "title": "水下抓住他的东西",
+      "attempt": "五人在上集水槽旧取样台用实旧铁勺查看液面和下槽网格后方动静",
+      "counteraction": "下槽内出现主动移动的半透明节肢，突然从损坏网格伸出，钩住罗峰旧伤脚的裤脚与鞋带并往暗槽拖；怪物类别、阶位未知，旧网格锈扣不能承受猛烈拉拽",
+      "choice": "小满短丝仅勾实见的轻保险扣，乔澄与陈七人手拉现场旧折页护栅，林渊在可承重的干实石台真抓罗峰前臂，罗峰自己把被钩的裤脚扯裂、脚踏回实石；护栅借重力实际落在断格前，人顺真退路撤离，不靠阿禾/S或陈七投活人",
+      "payoff": "活体危险真显形，罗峰实脱险且五人无减员，发现高位取样台可从不经过下槽的独立口取少量水样",
+      "cost": "罗峰旧伤踝磨破加重、现场护栅暂时阻住物体但非永久杀死；盛水工具仍未实取得，团队不得无风险再靠近",
+      "mainline_change": "不明威胁从抽象水污染变成实际会抓人的东西，林渊亲自依现实行动救人",
+      "mechanism": "先实见网格及轻扣＋罗峰真扯裤脚＋外侧护栅重力落闭",
+      "next_trigger": "能否用高位独立取样口实带回安全有限样本而不再次冒命，其他人是否会误当已净化",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "title": "不是一口安全的水",
+      "attempt": "五人避开下槽未知节肢，在上层实岩取样台找到实体取水器具、取得可携样本，带回21人队伍",
+      "counteraction": "上层旧水也没有卫生检测证明，现场旧金属瓶带锈、原来营地一桶直接落雨又见油膜；部分新人急着把样水当确认可喝，罗峰不愿再次由赵骁替他评价伤情",
+      "choice": "乔澄在旧台真拿一只旧搪瓷小水壶并检查能否装约1L，先以台边有水的上口冲掉可见旧灰、再从独立上槽真实接不超过1L作隔离样水；五人沿同一石阶真返16人营。林渊明确当众标三栏、让罗峰自己说伤势，拒绝未经检验全员分饮；阿禾阿月留言页不擅由林渊替她们签字",
+      "payoff": "实带回一只额外约1L新岛上槽疑水和可加热的搪瓷小壶，21人全在并有实际获得上槽样源/下槽活物的可核现场记录；悬念转向物种/饮水处理，不虚报已经解决缺水",
+      "cost": "另1L同样未证可安全饮，罗峰腿伤更痛，实护栅存在失效风险，仍无第二岛任务说明",
+      "mainline_change": "团队从盲饮/盲信林渊技能转向现场证据、跨主控文字边界及共同承担未解问题",
+      "mechanism": "上/下水槽实分流、搪瓷壶实取样和原路返程、公开物权及信息来源",
+      "next_trigger": "下槽活物是否会沿水工通路靠近营地、如何把足量水实际处理而不把煮沸当作去除所有污染、第二岛任务未知",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "water_count",
+      "setup_episode": 35,
+      "due_episode": 38,
+      "promised_result": "P34一桶近满5L未验雨水且表面疑似油膜，旧矿3瓶（一开减二封）、上廊2瓶（一开减一封）、旧样杯不变；P38外带仅约1L上层疑水、旧搪瓷小壶，不能称安全饮水或自动满瓶，21人水仍不足"
+    },
+    {
+      "id": "counts",
+      "setup_episode": 35,
+      "due_episode": 38,
+      "promised_result": "P35外出新乔澄1＋旧林渊苏小满陈七3＋首批旧船罗峰1＝5；留新13＋旧周启1＋首批旧船赵骁韩震2＝16；P38五人实返16，合新14旧4首批3=21，无新死亡和身体额外人格"
+    },
+    {
+      "id": "persona",
+      "setup_episode": 35,
+      "due_episode": 38,
+      "promised_result": "林渊在P34真实强烈情绪后已回主控，缺席期只靠小满先口述再核阿月阿禾实字；P35—38不因呼名又任意切阿禾/阿月，不把小满的证词变成她们的实时发言，写留言也不瞬间共享记忆"
+    },
+    {
+      "id": "threat",
+      "setup_episode": 36,
+      "due_episode": 38,
+      "promised_result": "P36实查上/下两路与下槽旧锈格栅和可动护栅，P37未知半透明节肢真实袭罗峰、实木/护栅+有限细丝轻扣救人，P38护栅仍不稳不宣告已杀死或确定阶位生态"
+    },
+    {
+      "id": "canon",
+      "setup_episode": 35,
+      "due_episode": 38,
+      "promised_result": "下一岛真实任务、怪物等阶、72h和昼夜节律仍不锁；首批余唐梨许知意马青青未出现，船只跨岛不返现实维持"
+    }
+  ],
+  "performance_status": "86/87/88/88秒仅为事前写作预算，非配音演出实测；实际动作与台词可能超标。"
+}
