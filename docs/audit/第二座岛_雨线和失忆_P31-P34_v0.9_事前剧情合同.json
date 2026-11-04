@@ -1,0 +1,182 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "接P30罗峰实归、21人缺水但只有有限旧水和样水；P31水账与公平分配、P32阿月真实夜妆与集雨、P33日光真实归阿禾后湿坡险情、P34实救小满及林渊受真实冲击归主控和亲听小满口述，这四个事件的后态和原因不能靠二集概述跳过。",
+    "merge_review": "P31冲突/决定/出发一集；P32夜妆、容器与雨落实同集；P33日光切换与真正险情；P34物理救出＋缺席记忆口述。没有再次新旧船找一个角色重复P20–P30结构。",
+    "revision_source": "前接main P27–P30 v0.8，21名活人：第二批新14、旧滞留4、首批曾登船赵骁韩震罗峰3。旧矿水周启两瓶各500mL（旧开瓶余减、一封），陈七原封500mL一瓶；上廊旧瓶500mL两瓶由陈七带回、四瓶损失；另P22一小杯浑浊水样。阿禾同体主控、阿月晨光已归、林渊P17以来失主控。",
+    "approval_boundary": "秦树死/旧四登船/赵韩罗归来及新岛设施为工作候选；本轮夜妆、雨棚、林渊受真实惊变归来亦为新候选。作者已明确游轮只驶往下一座岛，不回现实；不定义第二岛72h、指定III、怪物级别、昼夜长度。"
+  },
+  "audience_promise": "21人不被抽象水量饿死，具体可见争水和真实小规模集雨；阿月在新岛真正经历与沟通而不共享船记忆，林渊在高危主控切回后由小满亲口得知其缺席期。",
+  "main_engine": "稀缺与旧队权力模式、物理雨水收集与雨后坍坡风险、同体三人格的知情隔断共同施压。",
+  "protagonist_strategy": "小满阻止羞辱与替人试水，阿禾尊重阿月选择；阿月真的提供观察并写实物文字；林渊回归无记忆后依小满证词恢复信息。",
+  "ending_payoff": "原21人5出16守、5回仍21；收下实际近满5L一桶雨水但未确认安全，另一半桶因救人倾失；强烈真实情绪使阿禾→林渊，林渊不会瞬知缺席期而由小满亲口告诉。",
+  "endpoint_kind": "limited_water_gain_and_trustworthy_memory_transfer",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 31,
+      "title": "谁喝了新水",
+      "attempt": "21人在挡风台要实分前次带回两瓶上层旧封口水",
+      "counteraction": "肩伤蓝背心在正式分配前因口渴亲手开其中一瓶、喝两口，其他新人要求处置他；旧雨槽样本仍未经确认",
+      "choice": "小满阻止公开羞辱，乔澄与周启实际核两旧矿瓶、陈七原一瓶、乔澄新两瓶，开新瓶余量下降；从可见旧屋外檐判断雨夜可接水，决定不进入P17危险屋而从已走实岩到屋外小仓查物",
+      "payoff": "在不否定缺水现实的前提下达成公开管水规则；5人自愿短队（阿禾同体、小满、陈七、乔澄、杜衡）出发，16人留营",
+      "cost": "新开封旧水减少且无法凭封口证明安全，新分水协议尚脆弱",
+      "mainline_change": "旧羞辱式分配转向可核算账目与自愿风险",
+      "mechanism": "实际开瓶＋纸账，独立屋外通路与候选屋侧小仓",
+      "next_trigger": "P32夜雨能不能从直接落下的雨里收集，而不经过盐灰污染屋顶",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "title": "她的雨",
+      "attempt": "5人到屋外小仓寻找能收集即将到来的雨的实物容器",
+      "counteraction": "旧锈屋檐留绿灰污痕，不能拿屋顶导流当净水；外层石坪只有部分可踩实岩，风使蓬布难固定",
+      "choice": "已是实际夜色，阿禾在阿月可自行选择的前提下真亲手完成假发、裂镜、粉唇上妆，阿月才接管同体；她自己观察屋檐污痕，支持将实际拾到的旧油布和两只5L空桶放在离墙可退实石处直接接雨，明确自己没有船程记忆、与小满乔澄真对话",
+      "payoff": "雨棚在实地搭好并开始向真实桶里滴水，阿月的选择有实际安全贡献而非代阿禾发声",
+      "cost": "布和石扣须人力守，容器只是洗过、接水未经水质验证；夜雨加剧导致回坡难走",
+      "mainline_change": "阿月在第二岛再获得自己的亲历，并以对话影响多人真实操作",
+      "mechanism": "同体夜妆完整仪式＋现实薄棚/两只5L容量桶/实地污痕",
+      "next_trigger": "P33真实天亮自动归阿禾，几小时雨积到可携实水量，怎么过变湿的石坡",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "太阳替她关门",
+      "attempt": "短队收水，天亮后沿返回营地的实岩坡搬桶",
+      "counteraction": "5L桶一只接近满、一只过半，均未经检验；雨水沿P15旧壳下沟冲刷实岩接缝、此前可走石边在回程松动",
+      "choice": "第一线真正日光出现，阿月自动回阿禾，妆发仍留，同体不带阿月接雨全部记忆；小满当面说明昨夜与阿月协作的事实，并见她写在干纸上的‘屋檐不能用’；众人选了踩实上侧支道而非早先空壳捷径；小满在中段一块新松实石旁滑到低台实抓铁环",
+      "payoff": "水已经真实收进两桶，不是无限水源；实际发生一场可触碰的险情迫使队伍救人",
+      "cost": "半桶位置不稳会有实物损失，阿禾见小满真的险坠而遭强烈情绪冲击",
+      "mainline_change": "阿月自证过的安全动作被延续到阿禾主控，体感危险迫使后续人格交接",
+      "mechanism": "日光自动切换/真实桶水和湿坡/低台铁环/有限人力",
+      "next_trigger": "P34阿禾是否在看见小满几乎坠到废排沟时真实惊变由林渊重新主控；怎样实救回而非魔法回档",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 20,
+          "independent_action_seconds": 19,
+          "pause_seconds": 5,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 19,
+          "independent_action_seconds": 18,
+          "pause_seconds": 6,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "请你告诉我",
+      "attempt": "小满将滑离低台时五人要实际救出并带上一部分雨水",
+      "counteraction": "半桶在跌落时实倾翻到不可达废沟，阿禾看见小满悬在低台实环旁、情绪极度冲击后同体自然切到林渊；林渊没有P17以后主控记忆，肩伤和眼前险情未缓解",
+      "choice": "林渊只听小满当场说把手搭干石环边，陈七杜衡用真实旧绳/衣带护住，小满自己踩回实石，乔澄稳住近满一桶；五人实走回16人营地。小满随后亲口按亲见先后讲P17–P34阿禾接管、阿月夜妆真实出现、赵骁韩震罗峰再见、当夜接雨等缺席期事，林渊再读阿月本人留纸而不是全记起来",
+      "payoff": "5人都返回、21人仍活，留下一只近满5L桶候选雨水（未必安全），另桶水实际失落；林渊真实从小满口述得知缺席期，关系得到推进而非‘人格全记得’",
+      "cost": "实损一只半桶和部分用过的容器，伤者仍伤，收集水需处理及实饮风险并未解决",
+      "mainline_change": "真正回归的林渊把小满当独立证人而非阿禾阿月代言人；第二岛人数与具体危险继续",
+      "mechanism": "强烈情绪主控更替＋实绳/石环/真返营＋小满口述/阿月实字",
+      "next_trigger": "如何实际处理有限雨水、未知任务和帐篷外的脚印痕迹",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "water",
+      "setup_episode": 31,
+      "due_episode": 34,
+      "promised_result": "原旧矿2周启1陈七，新上廊2乔澄于P31转出并开一瓶两口，P22旧样杯留营。P32实找到两只5L空桶并直接收雨，P33一桶近满一桶过半，P34半桶实失、近满桶真回营；未验不宣称净饮。"
+    },
+    {
+      "id": "headcount",
+      "setup_episode": 31,
+      "due_episode": 34,
+      "promised_result": "21=新14+旧4+首批旧船赵韩罗3。P31–34出发新乔杜2＋旧阿禾陈小满3=5，留营新12+旧周启1+旧船赵韩罗3=16；P34五人实返，依旧21，无新增死者或第22具主控肉身。"
+    },
+    {
+      "id": "personas",
+      "setup_episode": 31,
+      "due_episode": 34,
+      "promised_result": "P32阿禾真实夜妆才阿月，P33确见第一天光自动回阿禾，P34阿禾目睹小满险坠强烈现实冲击后林渊回主控；林渊P17–34并无该段记忆，小满当面说明并由阿月亲笔作证。"
+    },
+    {
+      "id": "mechanics",
+      "setup_episode": 31,
+      "due_episode": 34,
+      "promised_result": "P32屋外实仓取油布、2x5L桶，实在裸石处挂雨棚；P33雨冲原实岩出现新松缝，小满实抓低台铁环，救援靠人手和实绳不靠B丝吊活人；新岛日照与时钟没有擅等于第一岛。"
+    }
+  ],
+  "performance_status": "88/89/87/90秒为写前场次预算；文本与动作时长未实测，很可能需要正式压缩或拆集。"
+}
