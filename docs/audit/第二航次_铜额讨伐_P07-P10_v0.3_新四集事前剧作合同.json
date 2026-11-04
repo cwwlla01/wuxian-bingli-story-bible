@@ -119,7 +119,7 @@
           "scene": 3,
           "speech_seconds": 14,
           "independent_action_seconds": 12,
-          "pause_seconds": 4,
+          "pause_seconds": 3,
           "overlapped_action_seconds": 2
         }
       ]
@@ -154,7 +154,7 @@
           "scene": 3,
           "speech_seconds": 14,
           "independent_action_seconds": 12,
-          "pause_seconds": 4,
+          "pause_seconds": 3,
           "overlapped_action_seconds": 2
         }
       ]
@@ -198,5 +198,5 @@
       "promised_result": "P07—P09指定III未死，P10 III实际死亡后游轮仍未直接靠岸/旧四也未瞬移上船；新批原任务应只按已确定72h靠港条件等待，不擅自改变窗口或保证每人实际登船。"
     }
   ],
-  "performance_status": "每集实写后若大幅超出60—90秒，以未计时申明，不以场次预算伪报演出；四集预算有两集略超90，实际更可能超出，正式分集须重新拆压而保留死亡/抉择的真实动作。"
+  "performance_status": "四集场次事前预算均不超过90秒，但仅为创作估算，不能等同演员配音/动作演出实测。文本对白、机关和抬运可能超目标，正式分集需复测并决定是否拆集。"
 }
