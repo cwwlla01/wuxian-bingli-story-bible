@@ -1,0 +1,201 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "用户持续要求续写，前段P15—P18 P18真夜妆阿月出现并写灰石岸小册。用P19—P22四集分别兑现天亮自动归阿禾、前批六人线索、首批已上船赵骁实体返场与小满拒再受支使、共同实查水源，最终形成有代价的合作和未解五人下落，四次主线变位不能靠一个场景同时交代。",
+    "merge_review": "P19的光照切换和文字告知一起；P20以实路发现旧人，不跳沟合流；P21需要纸张真验与旧人控制关系对抗，不能仅提及名字；P22以执行实查完成从口头谈判到物理互助。",
+    "revision_source": "以main P15—P18 v0.5实际文本为连续性源；阿月仍在P18夜间主控，P19真首光→阿禾；十八人新14旧4刚到第二岛，秦树死亡、旧四搭下一船属于此前工作候选。赵骁是第一批六个已登船者之一，若他在第二岛滞留亦是本轮重大新剧情候选。",
+    "world_uncertainty": "作者已确认船去下座岛，不等于每岛使用相同任务/72h/昼夜周期/重置；本段只观察第一道真实日光、实体雨槽与先前第一批的一位人类，不拟定全岛正式任务。"
+  },
+  "audience_promise": "阿月在新岛留下的书写如何真实抵达阿禾，苏小满能否面对曾使唤自己的赵骁而不退回原来被指挥的角色？眼前发现先前登船者是否让下个岛存在真实活人帮助而不是魔法神谕？",
+  "main_engine": "前批登陆幸存者对资源信息拥有不对称优势，小满曾被赵骁当成工具，阿禾主控又不能替她打包决定；水源急需核查、窄桥与灰壳迫使所有人实际合作。",
+  "protagonist_strategy": "小满把阿月与阿禾的事实口述责任变成自己公开谈判的独立地位，乔澄以实体证据裁断纸条/路线，阿禾在同体中尊重两者主体性而不越阶代打，赵骁以自己掌握的信息换取真实有限合作。",
+  "ending_payoff": "阿月→阿禾在真实日光自动切换，阿禾读笔记并听小满转告。赵骁本人从首批登船六人中真实在第二岛出现且本人持笔记证明P16警告来源，小满公开拒绝替他当工具；六人实查积雨槽并取小杯水样（未证明饮用安全），十八名随船者未减员，另赵骁为第十九名在场活人；其余五旧登船者命运尚未知。",
+  "endpoint_kind": "earned_persona_commmunication_and_returning_rival",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 19,
+      "title": "她留下的早晨",
+      "attempt": "阿月在P18已经出现并写新岛亲见记事，阿禾需要在真实天亮后知道她写了什么并向小满核对未主控时间",
+      "counteraction": "阿月不能在天亮时继续主控、阿禾没有阿月夜里言行的记忆；其他人急着问新岛任务，旧纸反面出现与熟悉旧人有关但来源不明的两字",
+      "choice": "第一道真实日光到达后阿月自动归阿禾、妆假发留在身；阿禾先读真小册，再由小满逐项口述纠正；乔澄拿出P16实带的警告纸，众人发现背角写有赵骁字样，但不把名字当证明作者",
+      "payoff": "阿禾真正看到阿月独立写的新岛见闻并尊重其边界；苏小满坦言曾在赵骁手下被支使，决心遇见也不会再被控制",
+      "cost": "新岛任务仍无系统消息，早光只解决身份/字纸阅读，不免费恢复水伤；队伍内部多了一条会激起旧创伤的真实线索",
+      "mainline_change": "从夜谈到可供后来主控阅读的真证词，未知字条成为指向首船六人之一的具体线索",
+      "mechanism": "真实晨光自动阿月→阿禾、实物妆容保留＋本人口述与笔迹区别＋翻纸发现姓名",
+      "next_trigger": "纸为何有赵骁之名，前一批登船六人是否曾真正来此",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "黄毛在对岸",
+      "attempt": "五人要去看与折纸同种材质的旧观测屋上方物资架及一段通往另一侧维修坡的实体路",
+      "counteraction": "临岸上方旧石栈与裂沟分开两侧，灰壳仍不可靠；远侧竟有人能喊苏小满名字，信任风险高，不能通过瞬移直接会合",
+      "choice": "阿禾/陈七/小满/乔澄/杜衡五人沿P15实岩上坡再去上方货架，周启和新12共13守营；不用手攀薄灰壳，乔澄确认真桥梁后才与对岸人隔沟交谈，认出真实黄发赵骁（首批已登船六人之一）却不立刻过去",
+      "payoff": "第一批六名已登船者中的赵骁，作为独立生存实体真实出现在第二岛另一侧；此前折纸出现赵骁的名字得到可能解释但还没有证明书写者",
+      "cost": "苏小满旧被指使经历遭人再提起，桥面能否负伤通过待查；前批另外五人现况仍未知",
+      "mainline_change": "从纸面疑云进入与旧队霸道领队的真实面对面利益冲突",
+      "mechanism": "实石栈路、断沟、可见旧维修窄桥、真实物理喊话及主角旧群体认识",
+      "next_trigger": "赵骁是否真留下警告，以及为何独自守在对岸，是否能提供可用补水信息",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "谁也不是你的手下",
+      "attempt": "两方先确认对岸赵骁身份，再谈他是否知道可以走的路线与水",
+      "counteraction": "赵骁仍习惯命令小满和把信息当筹码；新队杜衡怀疑他是冒名，阿禾遭赵骁误认成林渊、人格尊重受到挑战",
+      "choice": "赵骁真实从窄桥亲脚走来，用手里同纸张扯口的旧簿本与P16折纸相接说明确由他写；小满当面拒绝被他支配，明确合作条件、他必须先展示雨槽通路并让自愿的人参与；阿禾不替小满揍赵骁也不替她作决定",
+      "payoff": "折纸警告作者得到可见物证及本人承认，赵骁确是同岛幸存者，前批其他五人只知他曾同行后走散、不能凭他的话宣布死亡；他接受有限互助，不立刻成为可靠队长",
+      "cost": "赵骁需要别人的实际劳力，他可分享的只是观察而不是验证过的饮水，双方根本不信任尚未消失",
+      "mainline_change": "苏小满由被他使唤的弱者变成有条件对等谈判的人",
+      "mechanism": "实体桥跨沟、撕纸同源比对+旧队角色熟识+非暴力谈判",
+      "next_trigger": "P22实走对岸雨槽，看赵骁所称水源是否存在且人能否安全操作",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "这次我走前面",
+      "attempt": "六人（先前五名＋赵骁）沿窄桥去实查旧坡后的接雨槽，确认雨槽究竟有没有水和退路",
+      "counteraction": "旧坡排雨槽被倒灌木片堵住，近旁灰壳负重易塌；赵骁见小满丝能拉轻扣又要求她站危险边缘，重演旧日支使",
+      "choice": "小满不接受单人靠边冒险，自愿走实石前位定位轻扣却要求赵骁和其他人先在安全侧固定实体回路；赵骁真正和陈七人工撑住可退的木护板、乔澄实探路，杜衡报水位，阿禾支持小满自主选择而不代她行动",
+      "payoff": "六人真到接雨槽，拆下木片看到实物积存雨水，持现场真实旧杯取一小杯样水返回，明确未化验/不把它当18人的无限净水；18名随船者仍活，额外1个已登前批者赵骁与他们实会合，总共当前可见19活人；P16纸条的来源被查明且旧坡实路有限通过",
+      "cost": "小满踝伤、杜衡臂伤仍疼，雨槽需未来验证安全/处理，赵骁没有重新获得指挥她的权利，第一批其余五人仍下落未知",
+      "mainline_change": "新岛从只有警告纸发展到真实见到前批生还者、实际找到未经检验的水源与可走路线，关系由压迫惯性变成带条件的合作",
+      "mechanism": "手脚实走窄石桥＋轻丝只拉可见扣、人力支撑门板＋真采水样＋可核计数",
+      "next_trigger": "赵骁最后见到其他五人的地点和新岛正规任务信息仍需现场查证；天光不代表确定昼夜节律",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "daylight",
+      "setup_episode": 18,
+      "due_episode": 19,
+      "promised_result": "P18阿月真夜妆后主控、亲笔记录；P19实观察真正首道天光，阿月自动归阿禾、假发化妆留在同体脸上，阿禾只能读小册＋小满口述；林渊仍无主控、不知此段。"
+    },
+    {
+      "id": "name",
+      "setup_episode": 16,
+      "due_episode": 21,
+      "promised_result": "P16乔澄确实收好真人警告折纸；P19在折纸背角发现赵骁二字但仅线索，P20现实看到他，P21赵骁用同本真实撕口和纸质证明此前纸为自己书写；不是系统任务单。"
+    },
+    {
+      "id": "count",
+      "setup_episode": 19,
+      "due_episode": 22,
+      "promised_result": "P19—P20最初18＝新14＋旧4，P20探路旧阿禾（林渊身体）、陈七、小满3＋新乔澄杜衡2共5，营地新12＋旧周启1共13；P21真正出现的赵骁来自首批六登船者而非当前新15或旧四，也非复活人，P22五人＋赵骁实返13，当前现场可见19活人＝18随本次船＋首批六人中实际多见赵骁一名，不自动保证其余五人还活。"
+    },
+    {
+      "id": "resources",
+      "setup_episode": 19,
+      "due_episode": 22,
+      "promised_result": "周启仍携2瓶×500mL（其中1开余大半、另1封），陈七随身1封500mL；P22赵骁指的只是雨槽实体暂有积水、用现场旧杯取样，未确认净水，未新增无限供水、全体旧伤未愈。"
+    },
+    {
+      "id": "skills",
+      "setup_episode": 19,
+      "due_episode": 22,
+      "promised_result": "阿禾S并非随意可以破石桥/秒杀新岛未知怪，林渊不自动醒；小满短B灵丝仅牵现实轻扣，赵骁A狼兽化不等于全知；陈七不投活人也没取回失物。"
+    },
+    {
+      "id": "first_six",
+      "setup_episode": 20,
+      "due_episode": 22,
+      "promised_result": "作者原定首批六登船名单中的赵骁在此前跨岛后滞留第二岛，此为本轮重大新候选，只有他本人实际被见；其他韩震/罗峰/唐梨/许知意/马青青五人当前状况皆未知，不能把他们写成死者或已经回现实。"
+    }
+  ],
+  "performance_status": "每集88秒为事前场景分配预算，不是演员配音与实景走位实测。"
+}
