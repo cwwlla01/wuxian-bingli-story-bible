@@ -1,0 +1,240 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inherited_assumption",
+    "episode_count_reason": "用户要求检查起伏和加深阿禾/阿月/苏小满/林渊的沟通，并确认小满告知林渊；沿已存在F01—F05五集定向修订，不额外扩集，不授权重写整季。",
+    "merge_review": "原五集分别承担实体遇袭与替身冲突、第一次真实夜妆及阿月提愿望、第二次海边真愿望与记忆矛盾、行刑/忏悔、林渊口述知情+岛重置；合并F02/F03将模糊两次夜妆及阿月独立选择，拆分与否待演出实测。",
+    "revision_source": "第一季季终F01—F05 v1.4是历史工作稿；本v2.4保留原五集主要事件，改写共15场对话、冲突和知情链。知情来源由作者在本轮明确确认；新增台词与动作不是作者逐项批准。"
+  },
+  "audience_promise": "人物关系既有争执又有真诚交流：小满拒当替身，阿禾不再以自罚决定一切，阿月有独立拒绝，林渊在主控复归后明确由小满口头得知，而非神奇读脑。",
+  "main_engine": "保护冲动会把其他人的选择吞掉；同体不能同时交谈，只有真实见证者和亲笔文字跨越主控空白，沟通还会引发误解和不受欢迎的拒绝。",
+  "protagonist_strategy": "阿禾以保护为名替人决定，遭小满真实指出替身问题；小满以目击证据沟通并维护不同者主体，阿月以独立书写看海选择和拒绝赦免，林渊复归后倾听小满才核对本子。",
+  "ending_payoff": "林渊知道阿禾和阿月的现身、旧创与告别，是苏小满当面分条告知他；阿禾首次忏悔保留旧伤和失去增幅；岛重置、新15登岛、旧四仍被困但留下真实警告。",
+  "endpoint_kind": "earned_emotional_boundary_and_information_transfer",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 1,
+      "internal_id": "F01",
+      "title": "留下的人",
+      "attempt": "撤离矿区后保住三瓶封口水、小满和重伤周启",
+      "counteraction": "II拾声者真实复制刚听见的林渊话语并扑出，小满识破仍受到实体突袭；阿禾切换后误把小满叫阿月",
+      "choice": "阿禾与队伍共同撤离不追杀，小满拒绝作为亡者替身并要求阿禾先听她本人",
+      "payoff": "阿禾向小满亲口说阿月已死、看海失约，承认小满并非她",
+      "cost": "同体肩伤再次受损，两人关系因拒绝替身而先紧张",
+      "mainline_change": "阿禾/小满从单向救赎转入能争执的平等关系",
+      "mechanism": "外怪实体袭击＋知情误认",
+      "next_trigger": "阿禾想与阿月交流，小满拒绝替她保证对方会原谅",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 12,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 12,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 11,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "internal_id": "F02",
+      "title": "写给明天",
+      "attempt": "阿禾想得到阿月回应，寻求自己的安心",
+      "counteraction": "小满指出阿月不是安慰工具；阿月真出现后也质疑自己是不是该按阿禾期待答话",
+      "choice": "阿禾在夜间真装扮后把可拒绝的问题留在本子里，小满只作现场见证，阿月自由写想看海",
+      "payoff": "小满与阿月真实交谈，阿月提出自己想亲眼见海的独立愿望",
+      "cost": "阿禾未得到赦免，必须等下一短光才能读到答案",
+      "mainline_change": "关系由阿禾预设答案改为容许阿月拒绝和提出要求",
+      "mechanism": "实体妆容切换＋单体错时文字",
+      "next_trigger": "阿禾第二天能否容忍阿月的选择并承担真实旅途风险",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 12,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "internal_id": "F03",
+      "title": "海不是答案",
+      "attempt": "以可撤退路线陪阿月真正看海",
+      "counteraction": "阿禾因担心危险想替阿月拒绝；阿月在海边发现自己所知树芽记忆与现实已逝时间不符",
+      "choice": "阿禾不擦掉阿月的愿望，团队实走高坡；阿月再次夜妆出现，亲看海，并写下不代亡者原谅的边界",
+      "payoff": "阿月既有看见海的快乐，也有发现自己身份裂缝的愤怒和自主声明",
+      "cost": "阿禾下一醒来必须面对拒绝，无法用外部胜利替代内疚",
+      "mainline_change": "阿月由阿禾的旧愿望代言人变成提出独立意见的人",
+      "mechanism": "旅途权衡＋记忆矛盾的可见纸证",
+      "next_trigger": "阿禾会撕掉拒绝、继续加刑，还是在生存危机中真正听进队友",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 12,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "internal_id": "F04",
+      "title": "不再加刑",
+      "attempt": "带伤通过港口狭窄旧栈道，不让同伴落进孤立猎犬的突袭",
+      "counteraction": "阿禾读到阿月拒绝感到愤怒；II怪近身与她现有刑纹的痛和强化诱导她独自挡住所有危险",
+      "choice": "真实定罪行刑后阿禾不用罪己加刑，首次主动忏悔放弃剩余增幅让队友接力护送",
+      "payoff": "队伍真实担起撤路，阿禾不再以痛作为记住阿月的证据；情绪冲击促林渊复归",
+      "cost": "强化失去、旧伤依旧、林渊记忆空白无即时解释",
+      "mainline_change": "阿禾选择承认不万能，林渊恢复主控但仍不知阿月经历",
+      "mechanism": "有接触成本的S处刑链＋自愿退纹",
+      "next_trigger": "小满必须兑现口头告诉林渊，而不是靠神奇共享记忆",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "internal_id": "F05",
+      "title": "知道的人",
+      "attempt": "林渊理解自己两段主控空白及阿禾/阿月关系，同时四人面对下一批抵岛",
+      "counteraction": "林渊有心理医生分类本能，对未在场的经历一无所知；岛环境重构抹去实体标记，新人船不搭载旧队",
+      "choice": "小满逐条口述自己目击、当事人自述、未知判断，林渊先听后读本子；随后四人留实际路牌警告而不代新人决定",
+      "payoff": "林渊明确从小满得知阿月实际出现、说话、看海及拒绝，保有同体未解谜；岛还原、新十五上岸旧四仍困",
+      "cost": "林渊无完整记忆/熟练S、周启及同体伤未愈、永久登记不注销，物理标点失效",
+      "mainline_change": "小满不再仅是被保护的目击者，而是可信的叙述者；林渊学会区分亲见与传闻",
+      "mechanism": "可核对口头证词+实体字迹＋环境重构",
+      "next_trigger": "下一季新人警告选择与林渊/Ahe/模拟Ayu的未来再沟通",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 13,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "early_ahe_witness",
+      "setup_episode": 1,
+      "due_episode": 5,
+      "promised_result": "林渊对阿禾先由J10/N01/A05小满转告，本段F01小满亲见阿禾认错把她当阿月，F05小满转告林渊阿禾的原话"
+    },
+    {
+      "id": "makeup_source",
+      "setup_episode": 2,
+      "due_episode": 3,
+      "promised_result": "A04假发与镜子从实体皮箱取得，F02实地找到可用旧妆盒、第一次真夜妆，F03携实物再次完整夜妆，短光才切回阿禾"
+    },
+    {
+      "id": "a_yue_refusal",
+      "setup_episode": 2,
+      "due_episode": 4,
+      "promised_result": "F02阿月自己要求海，F03真看海发现不可亲见的树芽记忆、实写不能代表现实逝者原谅，F04阿禾只能承认而不能撕纸篡改"
+    },
+    {
+      "id": "lin_knowledge",
+      "setup_episode": 2,
+      "due_episode": 5,
+      "promised_result": "林渊在F02/F03主控缺席，F04复归只听小满预告，F05先由小满亲口按照目击/当事人自述/未知分层告知，再给林渊看阿月本人写的本子"
+    },
+    {
+      "id": "s_mechanics",
+      "setup_episode": 1,
+      "due_episode": 4,
+      "promised_result": "F01陈七亲手交阿禾旧短刃，F04有真II袭击、阿禾目视定罪、近身行刑得刑纹、主动忏悔退纹失增幅但不治伤、不自动切人格"
+    },
+    {
+      "id": "boat_reset",
+      "setup_episode": 3,
+      "due_episode": 5,
+      "promised_result": "怪物实际沿路归巢不是怪物全部安全，F05环境还原废弃模板、附在环境的陈七标记失效、携带本子水保留、新15下船旧四仍困"
+    }
+  ],
+  "performance_status": "未计时/未演出，预算仅为目标。新稿对白密度可能大幅超过60—90秒，需在定稿时实测，必要时拆集，不把预算冒充证据。"
+}
