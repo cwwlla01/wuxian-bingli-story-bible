@@ -1,0 +1,176 @@
+{
+  "workflow_revision": "4.1",
+  "mode": "season",
+  "scope_basis": {
+    "count_source": "inferred",
+    "episode_count_reason": "用户在第二航次序章P01—P03后连续请求继续。以P04—P06三新集把旧队/新十五'有限信任'推进为针对指定III的付代价合作；三集是编剧选择，不代表作者已锁第二季长度。",
+    "merge_review": "P04任务描述+谁守营谁侦察一起因利益冲突定案；P05必须独立兑现短光观察但白昼自卫（外部证据/受伤/出口堵），P06以暗夜主动猎捕与七人撤回回应P05危机。若把P05+P06合在短集，白昼自卫与夜间巡猎的机制反差无法由真实光暗变化承载。",
+    "revision_source": "承接P01—P03 v0.1、第一季F05 v2.4与世界/怪物规则；P04—P06为首次新增候选剧本。",
+    "branch_status": "候选指定III个体为夜巡者·铜额，额前铜绿色半环骨甲及右肩白裂纹由新挑战者的任务描述提供，不意味着正式设定已批准；不创建第八种怪物。新两名实名仍仅乔澄、杜衡，其余十三均未正式命名。",
+    "daylight_assumption": "承接P03后已入长夜，约22h后短光开始才安排侦察，是真耗任务窗，不把工作时钟误称角色精准知道的下一船抵达时刻。"
+  },
+  "audience_promise": "新人任务倒计时逼旧四当炮灰；观众想看双方能否在不滥用伤者、不随意牺牲新人的前提下找到指定III。真实短光侦察会造成损伤，夜幕后的撤退靠队友承担风险而非S级神降。",
+  "main_engine": "任务时间紧、人员经验不对等、夜巡者白昼防卫/夜间主动巡猎；新人怕被旧队控制，旧队怕被当无尽补给和牺牲品。每次选择留下实体时间、伤势和受损路线的成本。",
+  "protagonist_strategy": "乔澄主动共享系统任务候选描述，杜衡坚持自己的风险决策，小满有权阻止让受伤周启打头阵并为撤路分工；林渊承认不是所有人都必须由他救，陈七只真标、实投非活体小物。",
+  "ending_payoff": "七名侦察者实际活着回港、11新人和周启仍在，任务III候选位置/可见特征得到现场确认且夜间威胁真出现。目标没有死亡，船不会因此靠岸，双方继续以条件合作面对下一阶段。",
+  "endpoint_kind": "bounded_boss_identification_with_costly_rescue",
+  "target_seconds": [
+    60,
+    90
+  ],
+  "episodes": [
+    {
+      "number": 4,
+      "internal_id": "P04",
+      "title": "谁去当诱饵",
+      "attempt": "新十五基于已有指定III任务商议路线，旧四想帮助但周启负伤不能当默认前锋。",
+      "counteraction": "杜衡担忧72小时内无法完成任务，不愿被旧队拖延；多人要求旧四既然知道怪物就冲锋，林渊也一度想承诺保护所有人。",
+      "choice": "乔澄把任务所写候选目标'III夜巡者·铜额'及外观描述亲口提供给旧四；小满挡下用周启作诱饵的提议，周启自己说明伤情；十九人约定11新+周启守真检查过的港上仓棚，4新+林陈苏三旧次短光外出实查，不预先承诺击杀。",
+      "payoff": "从含糊的谁指挥谁变成带见证的七人侦察与十二人营地，重点是保留撤退权，实物地点与人数写清；指定III任务变成可检查但尚未锁死的目标外观线索。",
+      "cost": "等短光意味着耗掉本轮72小时的一段真夜，部分新人因此更加不满，旧队也承担无法保证登船的疑虑。",
+      "mainline_change": "联盟从信任测试转向有边界的共同任务；林渊开始先征询小满而非把周启/其他人当可牺牲资源。",
+      "mechanism": "既存任务提示的具体描述（新增候选）＋物理营地与人数组队＋短光战术窗口",
+      "next_trigger": "短光期间七人能否在废港信号楼内真实看见符合特征的夜巡者，观察能否不触发袭击？",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 3,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "internal_id": "P05",
+      "title": "光不保护人",
+      "attempt": "短光窗口让七人沿实际旧港北坡抵达信号楼，寻找符合任务描述的夜巡者实体，而不靠系统定位。",
+      "counteraction": "还原后废楼双出口需重新摸查，楼板与旧天窗脆弱；半环铜绿额甲和右肩裂痕的III夜巡者就在二层梁下，长久旧架松动压向它，哪怕短光下也发生实体自卫。",
+      "choice": "乔澄预查西侧外梯，陈七实走至东侧空石做短投落点，林渊在楼内只从可见角度确认特征；旧梁因现实压力倒下惊扰目标，一名匿名新侦察者肩被碎铁划伤，队伍放弃再靠近核照、先护伤者去西门。",
+      "payoff": "亲眼见到极大概率对应任务的III个体，确认日照不灼伤且受直接惊扰时仍可真反击；原内梯被落梁阻断，西门卡着，短光将结束。",
+      "cost": "匿名新人真实肩伤、不能带走完整藏身图；原入口实堵且需要在夜幕前解开西门轻搭扣。",
+      "mainline_change": "从希望白天能安全近距离观察转为承认目标在白昼也不等于可随意接近，开始以撤离为第一优先。",
+      "mechanism": "真实地形/重力/二层梁的怪物防卫＋可见身体鉴别",
+      "next_trigger": "短光消退后III主动巡猎，七人如何打开西门且不丢下受伤新人？",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 14,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "internal_id": "P06",
+      "title": "不是谁的饵",
+      "attempt": "七人须在夜巡者转为主动猎捕时，经二层西门和实体外铁梯回南坡，确保伤者一起离开。",
+      "counteraction": "西门轻搭销被锈卡、怪物能从梁底沿墙向西爬，杜衡愿跑到另一端吸引其注意，可能独自被截；西外梯多人通过慢，刚才伤者单臂使力困难。",
+      "choice": "小满拒绝把杜衡丢去单独牺牲，不剥夺他自主选择但要求先规划可退路；陈七把实握的现场薄铁盖短距送到P05亲摸的东侧空石，制造有限动静；小满只拉轻搭销，乔澄与林渊实际推门、杜衡撑开西门，众人互相扶持逐级下外梯，最后杜衡真抓住林渊手臂过最后一步。",
+      "payoff": "七名侦察者都活着真返已验证港口仓棚，目标仍存，实际见过其候选外观、白天防卫与夜间贴墙猎捕；新旧双方形成有条件协作但未击杀III、船仍在外海。",
+      "cost": "杜衡手臂擦伤、匿名新人肩伤、陈七投出的薄铁盖丢在东石、外梯已在怪物追击下弯折不再可靠；真实夜路和任务时间继续消耗。",
+      "mainline_change": "杜衡不再要求别人默认当诱饵，林渊不再把救下所有人等同代替别人作决定；小满在新旧队中拥有真正执行话语权。",
+      "mechanism": "短光消失后的夜间主动巡猎＋真标空石非活体小物投送＋轻门销/人工扶梯与走位",
+      "next_trigger": "确认目标在废港信号楼但入口/外梯损坏，剩余时间内需新办法靠近并制定可撤退讨伐方案。",
+      "scene_budgets": [
+        {
+          "scene": 1,
+          "speech_seconds": 14,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 2,
+          "speech_seconds": 14,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        },
+        {
+          "scene": 3,
+          "speech_seconds": 13,
+          "independent_action_seconds": 12,
+          "pause_seconds": 4,
+          "overlapped_action_seconds": 3
+        }
+      ]
+    }
+  ],
+  "payoff_debts": [
+    {
+      "id": "boss_name",
+      "setup_episode": 4,
+      "due_episode": 5,
+      "promised_result": "乔澄P04按她本人收到的任务文字亲口说出'夜巡者·铜额'及特征；P05七人目视额甲和右肩裂纹，属于候选目标识别而非系统给位置/突然闪金框"
+    },
+    {
+      "id": "mission_clock",
+      "setup_episode": 4,
+      "due_episode": 6,
+      "promised_result": "P04众人面对约72h任务，等一整段长夜至短光，P05观察、P06夜追，实际消耗时间且III仍未死"
+    },
+    {
+      "id": "seven_twelve",
+      "setup_episode": 4,
+      "due_episode": 6,
+      "promised_result": "15新人中乔澄、杜衡、蓝背心、布帽共4外出，11留港；旧四林/陈/小满3外出、肋伤周启留下＝7侦察+12守营＝19，P06七人原路返且19全活"
+    },
+    {
+      "id": "old_p03_wound",
+      "setup_episode": 4,
+      "due_episode": 6,
+      "promised_result": "周启因左肋尚未恢复留营不再当饵，小满右踝旧伤限走速，陈七患者登记保持，不让阿禾阿月任意召出"
+    },
+    {
+      "id": "tower_mark",
+      "setup_episode": 5,
+      "due_episode": 6,
+      "promised_result": "P05陈七沿楼外东石真走摸实标记，P06从自己手里投现场薄铁盖至该空石；真实噪声最多延迟目标短时注意，外铁梯人需实走"
+    },
+    {
+      "id": "night_rule",
+      "setup_episode": 5,
+      "due_episode": 6,
+      "promised_result": "P05短光下夜巡者因受实物梁架惊扰而防卫，但不凭阳光自动死亡；P06暗起后同个体主动沿墙追猎，无法瞬移"
+    },
+    {
+      "id": "real_cost",
+      "setup_episode": 5,
+      "due_episode": 6,
+      "promised_result": "P05蓝背心真实肩伤，P06撤离时杜衡手臂擦伤、东西外梯失去可靠性、目标仍存、新人时间继续消耗，不能复位成无伤侦察"
+    }
+  ],
+  "performance_status": "86/88/89秒仅事前创作预算，不是演出/配音实测；复杂7人走位需另测。"
+}
